@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+/* Encabezado de página con titulo y boton de iniciar sesion*/
+#top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: pink;
+}
+
+#top h1{
+    color: white;
+}
+
+#top span{
+    color: black;
+}
+
+#topInteractivo {
+    display: flex;
+    justify-content: right;
+}
+
+#iniciarSesion {
+    margin-left: 50px;
+    height: 40px;
+}
+/* boton con cambio de texto */
+#enviarFlores {
+    width: 200px;
+    border: none;
+    background: none;
+}
+/* Contenedor de cuadros con imagenes y botones de compra*/
+#main {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#flordelmes {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#masResultados {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#masResultados span {
+    font-weight: bold;
+}
+
+#variedades {
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recuadros {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: grey;
+    width: 380px;
+    height: 250px;
+}
+
+.recuadros p{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.arreglos {
+    width: 320px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.valor {
+    color: rgb(203, 120, 148);
+}
+/* Botones que desaparecen al click */
+.comprar {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(226, 107, 127);
+    color: white;
+    box-shadow: 5px 5px 1px  black;
+}
+
+#pie {
+    background-color: pink;
+    height: 30px;
+}
